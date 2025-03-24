@@ -4,7 +4,7 @@ let score="33"
 console.log(typeof score);//String
 let valInNumber=Number(score)
 console.log(typeof valInNumber);
-consol.log(valInNumber);
+console.log(valInNumber);
 
 //"33"=>33
 //"33abc"=>NaN
@@ -16,7 +16,7 @@ consol.log(valInNumber);
 let isLoggedIn=1;
 
 let booleanIsLoggedIn=Boolean(isLoggedIn)
-consol,log(booleanIsLoggedIn)//true
+console.log(booleanIsLoggedIn)//true
 
 //""=>false
 //"abdd"=>true
@@ -24,4 +24,25 @@ consol,log(booleanIsLoggedIn)//true
 
 let val=33
 let stringval=String(val)
-consol.log(stringval)//33 but the type is String
+console.log(stringval)//33 but the type is String
+
+
+//**********************Operations**************************/
+let value=3
+let negValue=-value
+console.log(negValue);//-3
+
+consol.log(2+2)//4
+//-,*,/,**(pow),%(modulus)
+
+let str1="hello"
+let str2="word"
+
+let str3=str1+str2
+console.log(str3)//Hello word
+
+
+console.log("1"+2);//12
+console.log(1+"2");//12
+console.log("1"+2+2);//122
+console.log(1+2+"2");//32
